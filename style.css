@@ -1,0 +1,150 @@
+@font-face{
+    font-family: odinFont;
+    src: url(assets/Norse-Bold.otf);
+}
+
+
+
+body, html{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    background-color:#f5f6f8;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box{
+    display:flex;
+    flex-direction:row;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    margin-bottom: 1.5em;
+    margin-right: 2em;
+    
+}
+.left-column{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10em;
+}
+.right-column{
+    display: flex;
+    flex-direction: column;
+}
+.italic{
+    font-style:italic;
+}
+.left-side{
+   
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.odin{
+
+    color:white;
+    font-family: odinFont;
+    font-size: 15em;
+    
+}
+.odinbox{
+    position:absolute;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 200px;
+    background:rgba(0, 0, 0, 0.6)
+}
+
+
+
+
+
+
+.left-side img{
+    object-fit:cover;
+    display:block;
+    width: 100%;
+    height: 100%;
+}
+
+
+.top-part{
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-left: 2em;
+
+}
+.top-part h1{
+    font-family: helvetica;
+    font-size: 1.5em;
+    
+}
+.top-part #h-2{
+    margin-bottom: 1em;
+}
+
+.form{
+    margin-top: 4em;
+    padding-bottom: 2em;
+    padding-left: 2em;
+   
+ 
+}
+h2{
+    margin-bottom:1em;
+    font-family: helvetica;
+    font-size: 1.2em;
+}
+
+label{
+    font-family: helvetica;
+    font-size: 0.8em;
+    color: rgb(75, 75, 75);
+    letter-spacing: 0.5mm;
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 1em;
+    border: 1px #E5E7EB;
+    border-radius: 3px;
+    height: 2em;
+    font-size: 1em;
+    padding-left: 0.5em;
+    font-family: helvetica;
+}
+
+button{
+    background-color: #596D48;
+    height: 3em;
+    width: 15em;
+    border-radius: 10px;
+    color: white;
+    font-family: helvetica;
+    font-weight: bold;
+    border: 0;
+    margin-bottom: 2em;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.button-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

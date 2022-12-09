@@ -113,18 +113,22 @@ label{
 
 input{
     margin-bottom: 1em;
-    border: 1px #E5E7EB;
-    border-radius: 3px;
+    border-radius: 5px;
     height: 2em;
     font-size: 1em;
     padding-left: 0.5em;
     font-family: helvetica;
+    border: 1px solid rgba(48, 47, 47, 0.3);
+    background-color: rgba(179, 179, 179, 0.1);
 }
 
+
+
 button{
+    font-size: 1em;
     background-color: #596D48;
-    height: 3em;
-    width: 15em;
+    height: 3.8em;
+    width: 20em;
     border-radius: 10px;
     color: white;
     font-family: helvetica;
@@ -136,10 +140,22 @@ button{
 button:hover{
     cursor: pointer;
 }
-
 .button-area{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+
+}
+.credit{
+    position: absolute;
+    font-family: helvetica;
+    top: 75vh;
+    color: white;
+    font-size: 1em;
 }
 
+a{
+    color:#f5f6f8;
+}
+.button-area a{
+    color:hotpink;
+}
